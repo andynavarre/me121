@@ -83,3 +83,19 @@ x_end_2 = 17.086
 
 points_2 = generate_line_points(slope_2, intercept_2, x_start_2, x_end_2, num_points)
 actuate_servos(points_2)
+
+slope_3 = -1.02054
+intercept_3 = 12.85885
+x_start_3 = 12.60
+x_end_3 = 17.086
+
+points_3 = generate_line_points(slope_3, intercept_3, x_start_3, x_end_3, num_points)
+actuate_servos(points_3)
+
+slope_4 = 0.75278
+intercept_4 = -17.78
+x_start_4 = 0
+x_end_4 = 17.086
+
+points_4 = generate_line_points(slope_4, intercept_4, x_start_4, x_end_4, num_points)
+actuate_servos(points_4)
