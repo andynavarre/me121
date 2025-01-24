@@ -121,3 +121,9 @@ actuate_servos(points_17)
 
 points_18 = generate_line_points(1, -12.2, 13.7, 14.2, num_points)
 actuate_servos(points_18)
+
+points_19 = generate_line_points(-0.01, -0.5, 14.2, 14.5, num_points)
+actuate_servos(points_19)
+
+points_20 = generate_line_points(0.01, 0.5, 14.2, 14.5, num_points)
+actuate_servos(points_20)
