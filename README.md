@@ -11,3 +11,7 @@ Project 2: Using the same robotic arm, apply inverse kinematics to draw the lett
 letter_M.py draws the letter M
 
 crab.py draws a crab
+
+2DSimulator_Inverse_Kinematics.vi draws the animal using Labview on a 2D simulator
+
+3DSim.vi generates an n-degree of freedom arm based on the user inputs of rotation and translation on a 3D display
