@@ -15,3 +15,7 @@ crab.py draws a crab
 2DSimulator_Inverse_Kinematics.vi draws the animal using Labview on a 2D simulator
 
 3DSim.vi generates an n-degree of freedom arm based on the user inputs of rotation and translation on a 3D display
+
+Simulation_Reality.vi communicates through serial with the robotic arm and reads a gcode file, which is translated into angle commands to the arm. 
+
+InverseKinematics.vi is a SubVi in Simulation_Reality.vi
