@@ -19,3 +19,5 @@ crab.py draws a crab
 Simulation_Reality.vi communicates through serial with the robotic arm and reads a gcode file, which is translated into angle commands to the arm. 
 
 InverseKinematics.vi is a SubVi in Simulation_Reality.vi
+
+Constant_Speed.vi uses two PWM-controlled servomotors to draw a straight line employing Jacobians
