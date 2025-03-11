@@ -22,5 +22,7 @@ InverseKinematics.vi is a SubVi in Simulation_Reality.vi
 
 Constant_Speed.vi uses two PWM-controlled servomotors to draw a straight line employing Jacobians
 
-Torques_Calc.vi plots the torque required for each motor to keep the EOF at each location of the GCode reader. Then it plots a histogram of required torques for the full drawing
+Torques_Calc.vi plots the torque required for each motor to keep the EOF at each location of the GCode reader. Then it plots a histogram of required torques for the full drawing\
+
+MidtermSubmission.zip includes the VI uses for the midterm to move a 3DOF robot while keeping the EOF always vertical
 
